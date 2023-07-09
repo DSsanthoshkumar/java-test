@@ -1,9 +1,6 @@
 pipeline {
     agent any
 
-    environment {
-        function_name = 'java-sample'
-    }   
     stages {
 
         // CI Start
