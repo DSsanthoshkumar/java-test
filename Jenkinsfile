@@ -24,7 +24,7 @@ pipeline {
                 }
             }
         }
-        stage("Quality check") {
+        stage("Quality gate") {
             steps {
                 script {
                     try {
